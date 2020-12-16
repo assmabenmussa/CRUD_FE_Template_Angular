@@ -6,12 +6,13 @@ import { HttpClient } from '@angular/common/http';
 })
 export class MainService {
 
-  // url: string = "http://localhost:4200/api/v1"; //Mockoon
   url: string = "http://backend:port_number"; //Test Server
-  fullURL: string;
+  protected resource = "";
+  get fullURL() {
+    return  this.url + "/" + this.resource;
+  }
 
-  constructor(private resource: string, public http: HttpClient) {
-    this.fullURL = this.url + "/" + resource;
+  constructor(public http: HttpClient) {
   }
 
   getAll(params?){
