@@ -6,70 +6,7 @@
     </div>
 </nav>
 <div class="wrapper">
-    <nav id="sidebar" class="justify-content-center">
-        <div class="w-100 d-flex justify-content-center">
-            <img src="../assets/img/logo.png" alt="Connect Logo" class="h-100" width="80px">
-        </div>
-        <div class="container-fluid mt-5">
-            <div class="row py-3 list-item">
-                <div class="col-3 px-0 offset-1">
-                    <div class="h-100 d-flex justify-content-center align-content-center">
-                        <div><i class="fas fa-info-circle"></i></div>
-                    </div>
-                </div>
-                <div class="col-8 px-0">
-                    <div class="h-100 d-flex align-items-center">
-                        <a href="dashboard.html">Dashboard</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row py-3 list-item">
-                <div class="col-3 px-0 offset-1">
-                    <div class=" h-100 d-flex justify-content-center align-content-center">
-                        <div><i class="fas fa-info-circle"></i></div>
-                    </div>
-                </div>
-                <div class="col-8 px-0">
-                    <div class="h-100 d-flex align-items-center">
-                        <div class="dropdown w-100">
-                            <a class="p-0 d-block" type="button" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                Sub Menu
-                            </a>
-                            <div class="dropdown-menu pb-0 w-100">
-                                <a href="items.html" class="d-block" type="button">
-                                    <i class="fa pr-2 fa-file-alt"></i>
-                                    All
-                                </a>
-                                <a href="specific_item.html" class="d-block" type="button">
-                                    <i class="fa pr-2 fa-file-medical"></i>
-                                    Add
-                                </a>
-                                <a href="specific_item.html" class="d-block" type="button">
-                                    <i class="fa pr-2 fa-file-medical-alt"></i>
-                                    Edit
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row py-3 list-item">
-                <div class="col-3 px-0 offset-1">
-                    <div class=" h-100 d-flex justify-content-center align-content-center">
-                        <div><i class="fas fa-power-off"></i></div>
-                    </div>
-                </div>
-                <div class="col-8 px-0">
-                    <div class=" h-100 d-flex align-items-center">
-                        <a href="">Logout</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <app-sidebar></app-sidebar>
     <div id="content" class="mt-5">
         <router-outlet></router-outlet>
     </div>
