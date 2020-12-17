@@ -7,6 +7,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ViewComponent } from './components/CRUD/view/view.component';
 import { LoginComponent } from './components/login/login.component';
 import { CreateComponent } from './components/CRUD/create/create.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [			
@@ -14,7 +15,8 @@ import { CreateComponent } from './components/CRUD/create/create.component';
       DashboardComponent,
       ViewComponent,
       CreateComponent,
-      LoginComponent
+      LoginComponent,
+      SidebarComponent
    ],
   imports: [
     BrowserModule,
