@@ -217,7 +217,6 @@ a[aria-expanded="true"] {
 
 #content {
   width: calc(100% - 250px);
-  min-height: 100vh;
   transition: all 0.3s;
   position: absolute;
   top: 3vh;
