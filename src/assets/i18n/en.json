@@ -1,0 +1,30 @@
+{
+    "DASHBOARD": {
+        "users": "users",
+        "user": "user",
+        "see_more": "See more"
+    },
+
+    "GENERAL": {
+        "system_name": "System Name",
+        "dashboard": "Dashboard",
+        "sub_menu": {
+            "all": "all",
+            "add": "add",
+            "edit": "edit"
+        },
+        "logout": "Log out"
+    },
+
+    "VIEW": {
+        "page_title": "Page Title",
+        "error_msg": "Error Message should be here",
+        "success_msg": "Success Message should be here",
+        "search": "Search",
+        "table": {
+            "number": "No",
+            "title": "Title",
+            "actions": "Actions"
+        }
+    }
+}
