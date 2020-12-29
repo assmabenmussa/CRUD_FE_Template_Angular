@@ -26,5 +26,22 @@
             "title": "Title",
             "actions": "Actions"
         }
+    },
+
+    "SPECIFIC": {
+        "input_grid": "Input Grid Examples",
+        "other_input_examples": "Other Input Examples",
+        "input": "Input",
+        "select": "select",
+        "upload_file": "upload File",
+        "date": "date",
+        "input_group": "input group",
+        "textarea": "text area",
+        "checkbox_input": "Checkbox input",
+        "radio_input": "radio input",
+        "success": "success",
+        "secondary": "secondary",
+        "success_outline": "success_outline",
+        "secondary_outline": "secondary_outline"
     }
 }
