@@ -1,0 +1,47 @@
+{
+    "DASHBOARD": {
+        "users": "مستخدمون",
+        "user": "مستخدم",
+        "see_more": "المزيد"
+    },
+
+    "GENERAL": {
+        "system_name": "إسم النظام",
+        "dashboard": "لائحة القيادة",
+        "sub_menu": {
+            "all": "الكل",
+            "add": "الإضافة",
+            "edit": "التعديل"
+        },
+        "logout": "تسجيل الخروج"
+    },
+
+    "VIEW": {
+        "page_title": "عنوان الصفحة",
+        "error_msg": "رسالة الخطأ تظهر هنا",
+        "success_msg": "رسالة النجاح تظهر هنا",
+        "search": "البحث",
+        "table": {
+            "number": "ر",
+            "title": "عنوان",
+            "actions": "أفعال"
+        }
+    },
+
+    "SPECIFIC": {
+        "input_grid": "أمثلة عمدان الادخال",
+        "other_input_examples": "أمثلة إدخال أخرى",
+        "input": "إدخال",
+        "select": "إختيار",
+        "upload_file": "رفع ملف",
+        "date": "التاريخ",
+        "input_group": "مجموعة إدخال",
+        "textarea": "مساحة إدخال",
+        "checkbox_input": "صندوق إختيار",
+        "radio_input": "إدخال الخيارات",
+        "success": "نجاح",
+        "secondary": "ثانوي",
+        "success_outline": "نجاح محفف",
+        "secondary_outline": "ثانوي محفف"
+    }
+}
