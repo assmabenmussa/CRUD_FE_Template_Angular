@@ -37,13 +37,13 @@ export class LocalizationService{
        
 
     // TODO: uncomment method 
-    // useLanguage() {
-    //     if(this.langMode){
-    //         this.translate.use('en');
-    //         this.langMode = false;
-    //     } else {
-    //         this.translate.use('ar');
-    //         this.langMode = true;
-    //     }
-    // }
+    useLanguage() {
+        if(this.langMode){
+            this.translate.use('en');
+            this.langMode = false;
+        } else {
+            this.translate.use('ar');
+            this.langMode = true;
+        }
+    }
 }
