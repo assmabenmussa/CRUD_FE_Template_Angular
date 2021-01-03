@@ -9,6 +9,7 @@
         "system_name": "System Name",
         "dashboard": "Dashboard",
         "sub_menu": {
+            "sub_menu": "sub menu",
             "all": "all",
             "add": "add",
             "edit": "edit"
