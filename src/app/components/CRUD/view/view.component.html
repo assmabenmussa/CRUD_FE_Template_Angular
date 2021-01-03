@@ -3,7 +3,7 @@
     <div class="row mb-5">
       <div class="col-md-8 col-12 text-center text-md-left">
         <!-- TODO: -->
-        <h2 class="px-3 mb-0">System Name</h2>
+        <h2 class="px-3 mb-0">{{'GENERAL.system_name' | translate}}</h2>
       </div>
       <div class="col-md-4 col-12 text-center">
         <div class="">
@@ -23,7 +23,7 @@
               <div class="col-12 mb-3">
                 <!-- TODO: -->
                 <h3 class="mb-4">
-                  Page Title
+                  {{'VIEW.page_title' | translate}}
                   <a routerLink="/create" title="Add New"
                     class="btn btn-success btn-sm float-right rounded shadow-sm hover-shadow">
                     <i class="fa fa-plus mt-1"></i>
@@ -38,7 +38,7 @@
                 <div class="alert alert-danger rounded">
                   <i class="fa pr-2 fa-info-circle"></i>
                   <!-- TODO: -->
-                  Error Message should be here
+                  {{'VIEW.error_msg' | translate}}
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@
                 <div class="alert alert-success rounded">
                   <i class="fa pr-2 fa-check-circle"></i>
                   <!-- TODO: -->
-                  Success Message should be here
+                  {{'VIEW.success_msg' | translate}}
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@
               <div class="col-12">
                 <label class="w-100 mb-4">
                   <div class="input-group rtl mt-2">
-                    <input type="text" class="form-control" placeholder="Search ...">
+                    <input type="text" class="form-control" [placeholder]="('VIEW.search' | translate) + '...'">
                     <div class="input-group-prepend">
                       <span class="input-group-text bg-light p-0 hover-shadow">
                         <button type="submit" title="Search now" class="btn btn-sm btn-light rounded bg-white border-0">
@@ -74,11 +74,11 @@
                   <table class="table align-middle table-hover table-striped m-0 text-center">
                     <thead>
                       <tr>
-                        <th width="70">No.</th>
-                        <th>Title 1</th>
-                        <th>Title 2</th>
-                        <th>Title 3</th>
-                        <th width="150">Actions</th>
+                        <th width="70">{{'VIEW.table.number' | translate | titlecase}}.</th>
+                        <th>{{'VIEW.table.title' | translate | titlecase}} 1</th>
+                        <th>{{'VIEW.table.title' | translate | titlecase}} 2</th>
+                        <th>{{'VIEW.table.title' | translate | titlecase}} 3</th>
+                        <th width="150">{{'VIEW.table.actions' | translate | titlecase}}</th>
                       </tr>
                     </thead>
                     <tbody>
