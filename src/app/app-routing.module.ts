@@ -7,7 +7,7 @@ import { CreateComponent } from './components/CRUD/create/create.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'dashboard', pathMatch: 'full'},
-  {path: "dashboard", pathMatch: "full" , component: DashboardComponent},
+  {path: "dashboard", component: DashboardComponent},
   {path: "view", component: ViewComponent},
   {path: "create", component: CreateComponent},
   {path: "login", component: LoginComponent}
