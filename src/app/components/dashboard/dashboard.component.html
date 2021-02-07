@@ -3,54 +3,26 @@
         <div class="container-fluid">
           <div class="row mb-5">
             <div class="col-md-8 col-12 text-center text-md-left">
-              <!-- TODO: -->
+              <!-- TODO: change placeholder to the actual system name-->
               <h2 class="px-3 mb-0">{{'GENERAL.system_name' | translate | titlecase}}</h2>
             </div>
             <div class="col-md-4 col-12 text-center">
               <div class="">
                 <h6 class="text-lg-right p-2 px-3 mb-0">
                   <i class="fas fa-user-tag ml-1"></i>
-                  <!-- TODO: -->
+                  <!-- TODO: change username to the user's-->
                   <span>Username</span>
                 </h6>
               </div>
             </div>
           </div>
           <div class="row mt-2">
-            <div class="col-xl-4 col-12 mb-5">
+            <div class="col-xl-4 col-12 mb-5" *ngFor="let card of cards">
               <div class="card text-center border-0 shadow hover-shadow">
                 <div class="card-body pt-4 pb-2 px-2">
                   <i class="fa fa-user-friends fa-3x"></i>
-                  <h5 class="">
-                    {{'DASHBOARD.users' | translate | titlecase}}
-                  </h5>
-                  <h6 class="mt-2" [ngStyle]="">22 {{'DASHBOARD.user' | translate | titlecase}}</h6>
-                  <hr class="mb-2 mt-4">
-                  <a routerLink="/view" class="w-100 d-block btn btn-light btn-sm rounded">{{'DASHBOARD.see_more' | translate | titlecase}}</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4 col-12 mb-5">
-              <div class="card text-center border-0 shadow hover-shadow">
-                <div class="card-body pt-4 pb-2 px-2">
-                  <i class="fa fa-user-friends fa-3x"></i>
-                  <h5 class="">
-                    {{'DASHBOARD.users' | translate | titlecase}}
-                  </h5>
-                  <h6 class="mt-2" [ngStyle]="">22 {{'DASHBOARD.user' | translate | titlecase}}</h6>
-                  <hr class="mb-2 mt-4">
-                  <a routerLink="/view" class="w-100 d-block btn btn-light btn-sm rounded">{{'DASHBOARD.see_more' | translate | titlecase}}</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4 col-12 mb-5">
-              <div class="card text-center border-0 shadow hover-shadow">
-                <div class="card-body pt-4 pb-2 px-2">
-                  <i class="fa fa-user-friends fa-3x"></i>
-                  <h5 class="">
-                    {{'DASHBOARD.users' | translate | titlecase}}
-                  </h5>
-                  <h6 class="mt-2" [ngStyle]="">22 {{'DASHBOARD.user' | translate | titlecase}}</h6>
+                  <h5>{{'DASHBOARD.users' | translate | titlecase}}</h5>
+                  <h6 class="mt-2" [ngStyle]="{'direction' : translate.langMode ? 'rtl' : 'ltr'}">{{card}} {{'DASHBOARD.user' | translate | titlecase}}</h6>
                   <hr class="mb-2 mt-4">
                   <a routerLink="/view" class="w-100 d-block btn btn-light btn-sm rounded">{{'DASHBOARD.see_more' | translate | titlecase}}</a>
                 </div>
