@@ -8,7 +8,10 @@ import { LocalizationService } from 'src/app/services/localization.service';
 })
 export class DashboardComponent implements OnInit {
 
-  constructor(translate: LocalizationService) { }
+  cards: any[] = [22, 40, 68];
+
+
+  constructor(public translate: LocalizationService) { }
 
   ngOnInit() {
   }
