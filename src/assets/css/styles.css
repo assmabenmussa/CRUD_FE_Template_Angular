@@ -37,6 +37,14 @@ a:focus {
   transition: all 0.3s;
 }
 
+.content {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
 .wrapper {
   display: flex;
   width: 100%;
