@@ -1,27 +1,20 @@
-# CRUDFETemplateAngular
+# CRUD-FE-Template-Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3. It contains basic pages, components, and services which are heavily used in our CRUD projects. The aim of it is to save time and effort, and avoid reinventing the wheel over and over.
 
-## Development server
+## Dependencies
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- bootstrap
+- mdbootstrap
+- ngx-translate
 
-## Code scaffolding
+## How to use this project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `git clone [project-link]` in your desired directory, then `npm install` to install all project dependencies. After completing these steps, feel free to run the project and start making changes to the code. 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build --prod` to build the project. The build artifacts will be stored in the `dist/` directory. 
+## Collaborators
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Thank you to Abdulrahman Ehsouna who has designed this system, and Rida Ellabbar who took the first steps of converting Abdulrahman's design into html code.
